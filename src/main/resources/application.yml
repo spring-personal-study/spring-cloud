@@ -1,0 +1,11 @@
+server:
+  port: 8761
+
+spring:
+  application:
+    name: ecommerce
+
+eureka:
+  client:
+    register-with-eureka: false # 서버를 클라이언트로 , 즉 서버가 자기자신을 클라이언트로 등록하기 때문에 의미없는 작업이다. 따라서 false. 기본값은 true.
+    fetch-registry: false # register-with-eureka와 비슷함. 기본값 역시 true.
