@@ -9,6 +9,6 @@
 - msa-user-service
   - https://github.com/spring-personal-study/spring-cloud-user-service
 - msa-catalog-service
-  - https://github.com/spring-personal-study/spring-cloud-catalog-service.git
+  - https://github.com/spring-personal-study/spring-cloud-catalog-service
 - msa-order-service
-  - https://github.com/spring-personal-study/spring-cloud-order-service.git
+  - https://github.com/spring-personal-study/spring-cloud-order-service
