@@ -3,7 +3,8 @@
 
 프로젝트 내에 없는 정보(카프카 설정정보 등)는 
 - https://reminiscent-headlight-ee3.notion.site/6d240164d4ec4ee29762d759d6d1a7c8?v=6414875cb9b44edba02325a2f8b498b5
-위 링크에 정리해두었습니다.
+
+링크에 정리해두었습니다.
 
 
 게이트웨이서버
