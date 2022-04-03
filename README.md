@@ -7,17 +7,21 @@
 링크에 정리되어 있습니다.
 
 
-게이트웨이서버
+### 게이트웨이서버
 - api-gateway-service
   - https://github.com/spring-personal-study/spring-cloud-gateway
 
 
-공통환경설정서버
+### 공통환경설정서버
 - msa-config-service
   - https://github.com/spring-personal-study/spring-cloud-config-service
 
 
-서비스 디스커버리(eureka)에 등록될 애플리케이션(cloud-client) 목록
+### 공통 프로파일 및 설정 정보
+- https://github.com/spring-personal-study/spring-cloud-config-yml
+
+
+### 서비스 디스커버리(eureka)에 등록될 애플리케이션(cloud-client) 목록
 - msa-user-service
   - https://github.com/spring-personal-study/spring-cloud-user-service
 - msa-catalog-service
@@ -31,9 +35,6 @@
 ## 전체 어플리케이션 개요
 
 ![image](https://user-images.githubusercontent.com/37533326/161421789-a7657d88-6ff6-4afc-a902-c46c146348af.png)
-
-
-
 
 
 
@@ -58,3 +59,20 @@
 
 - Queuing System (카프카)
   - 마이크로서비스 간 메시지 발행 및 구독
+
+## 기능 구현
+
+### Gateway
+- Spring Security를 활용한 JWT 인증 필터 (Gateway) 
+- 유저, 주문, 상품 서비스 라우팅
+
+### Config
+- 설정정보 읽기 및 각 마이크로서비스에 설정정보 전달
+
+### API
+- USER
+  - 회원 등록, 전체 조회, 단건 조회, (인증 필터구현을 통한)로그인, 서버 헬스체크
+- ORDERS
+  - 주문 등록, 특정 회원의 모든 주문내역 조회, 서버 헬스체크
+- CATALOG
+  - 카탈로그 조회, 서버 헬스체크
