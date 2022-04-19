@@ -76,3 +76,12 @@
   - 주문 등록, 특정 회원의 모든 주문내역 조회, 서버 헬스체크, 카프카 프로듀서
 - CATALOG
   - 카탈로그 조회, 서버 헬스체크, 카프카 컨슈머
+
+
+### ETC
+- 분산추적
+  - Spring Cloud Sleuth + Zipkin
+- 모니터링
+  - Prometheus + Grafana
+- 배포
+  - Docker Container
