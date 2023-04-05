@@ -2,7 +2,7 @@
 회원주문서비스 - 스프링 클라우드 실습 프로젝트
 
 프로젝트 내에 없는 정보(카프카 설정정보 등)는 
-- https://reminiscent-headlight-ee3.notion.site/6d240164d4ec4ee29762d759d6d1a7c8?v=6414875cb9b44edba02325a2f8b498b5
+- https://3colored.notion.site/6d240164d4ec4ee29762d759d6d1a7c8?v=6414875cb9b44edba02325a2f8b498b5
 
 링크에 정리되어 있습니다.
 
